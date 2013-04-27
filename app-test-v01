@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+  </head>
+
+  <body>
+    <h1>Bienvenidos</h1>
+    <h3>Filtro: <select>
+      <option value="todos">Todos</option>
+      <option value="favoritos">Favoritos</option>
+    </select></h3>
+    <form name="checkinput" onchange="aFavorite(this)">
+    <input type="checkbox" name="restaurant" value="rest1">Restaurante 1
+      <input type="button" name="restbutton" value="Open"><br>
+    <input type="checkbox" name="restaurant" value="rest2">Restaurante 2
+      <input type="button" name="restbutton" value="Open"><br>
+    <input type="checkbox" name="restaurant" value="rest3">Restaurante 3
+      <input type="button" name="restbutton" value="Open"><br><br>
+    </form>
+  </body>
+
+</html>
